@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("data/tsne.csv")
+df = pd.read_csv("tsne.csv")
 
 st.set_page_config(page_title="Movie Recommendation Applet", layout="wide")
 st.title("🎬 Movie Recommendation Applet")
